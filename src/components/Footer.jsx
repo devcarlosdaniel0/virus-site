@@ -8,7 +8,7 @@ export default function Footer() {
           </div>
           <span className="font-semibold text-zinc-400">VirusInfo</span>
         </div>
-        <p>© 2026 · Trabalho Acadêmico · Lorem Ipsum University</p>
+        <p>© 2026 · Trabalho Acadêmico · Fatec Americana</p>
       </div>
     </footer>
   );

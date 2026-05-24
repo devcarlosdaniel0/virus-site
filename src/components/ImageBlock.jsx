@@ -1,5 +1,3 @@
-// Componente reutilizável para placeholder de imagem
-// Substitua `src` por uma URL real quando tiver a imagem
 export default function ImageBlock({ src, alt = "Imagem", caption, aspect = "video", className = "" }) {
   const aspectMap = {
     video:   "aspect-video",

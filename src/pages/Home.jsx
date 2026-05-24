@@ -1,9 +1,10 @@
 import { NAV_LINKS, LOREM } from "../constants";
 import ImageBlock from "../components/ImageBlock";
+import principal from "../assets/principal.svg"
 
 const HIGHLIGHTS = [
   { icon: "🦠", label: "Definição",    desc: "O que são vírus e como afetam sistemas.", path: "definicao" },
-  { icon: "🔬", label: "Tipos",        desc: "Spyware, Ransomware, Trojans e muito mais.", path: "tipos" },
+  { icon: "🔬", label: "Tipos",        desc: "Spyware, Ransomware, Trojans, entre outros.", path: "tipos" },
   { icon: "🛡️", label: "Prevenção",    desc: "Ferramentas e boas práticas de proteção.", path: "prevencao" },
   { icon: "✅", label: "Checklist",    desc: "Avalie sua segurança digital agora.", path: "checklist" },
 ];
@@ -60,8 +61,8 @@ export default function Home({ navigate }) {
       {/* Hero image */}
       <section className="px-6 pb-20 max-w-5xl mx-auto w-full">
         <ImageBlock
-          alt="Imagem principal — cibersegurança"
-          caption="Ilustração: ambiente digital com ameaças e proteções"
+          src={principal}
+          alt="Imagem principal: cibersegurança"
           aspect="video"
         />
       </section>
